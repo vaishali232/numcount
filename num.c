@@ -7,7 +7,7 @@ scanf("%[^\n]%*c",s);
 n=strlen(s);
 for(int i=0;i<n;i++)
 {
-    if(s[i]>=0&&s[i]<=9)
+    if(s[i]>='0'&&s[i]<='9')
     {
         count++;
     }
